@@ -5,6 +5,7 @@ public class StringUtilities {
      * @return `input`
      */
     public String returnInput(String input) {
+        
         return null;
     }
 
@@ -14,7 +15,9 @@ public class StringUtilities {
      * @return the concatenation of `baseValue` and `valueToBeAdded`
      */
     public String concatenate(String baseValue, String valueToBeAdded) {
-        return null;
+        String result = baseValue + valueToBeAdded;
+       
+        return result;
     }
 
     /**
@@ -22,7 +25,10 @@ public class StringUtilities {
      * @return identical string with characters in opposite order
      */
     public String reverse(String valueToBeReversed) {
-        return null;
+        String result = "";
+        for(int i = valueToBeReversed.length() - 1; i >= 0; i--) {
+            result = result + valueToBeReversed.charAt(i); }
+        return result;
     }
 
     /**
@@ -30,6 +36,7 @@ public class StringUtilities {
      * @return middle character of `word`
      */
     public Character getMiddleCharacter(String word) {
+        
         return null;
     }
 
@@ -39,6 +46,7 @@ public class StringUtilities {
      * @return `value` with char of value `charToRemove` removed
      */
     public String removeCharacter(String value, Character charToRemove) {
+        
         return null;
     }
 
